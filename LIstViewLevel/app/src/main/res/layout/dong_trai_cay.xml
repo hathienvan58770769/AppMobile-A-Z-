@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imgView"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:padding="10dp" />
+
+    <TextView
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:textColor="#E91E63"
+        android:layout_toRightOf="@id/imgView"
+        android:id="@+id/textName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ten"/>
+    <TextView
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:textColor="#9C27B0"
+        android:layout_below="@id/textName"
+        android:layout_toRightOf="@id/imgView"
+        android:id="@+id/textMoTa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mo Ta"/>
+
+    <ListView
+        android:id="@+id/listViewTraiCay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp" />
+
+</RelativeLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+<!-- bacground   -->
+    <solid android:color="@color/colorAccent"/>
+<!-- kich thuoc -->
+    <size android:height="200dp" android:width="200dp" />
+<!--    boder duong vien-->
+    <corners
+        android:radius="50dp"
+        />
+<!--    khoang cach giua chu vs boder-->
+    <padding android:bottom="30dp"
+        android:top="10dp"
+        android:left="20dp"
+        android:right="40dp"
+        />
+<!--   width : do day border
+        dashGap : khoang cach dut khuc, dashWidth: dut khuc
+
+-->
+    <stroke android:color="#ff0"
+        android:width="5dp"
+        android:dashGap="5dp"
+        android:dashWidth="15dp"
+        />
+<!--    Tron mau
+        angle: goc do VD 45đđộ
+        centercolor:mau o giua
+        startcolor:mau bat dau
+        endcolor:mau ket thuc
+        -->
+    <gradient android:angle="45"
+        android:centerColor="#f000"
+        android:startColor="#ff00"
+        android:endColor="#f0f0"
+        />
+</shape>
