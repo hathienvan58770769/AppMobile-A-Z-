@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AppWord</string>
+    <string name="text_TieuDe">Information form</string>
+    <string name="hint_HoTen">input full name</string>
+    <string name="hint_Email">input email</string>
+    <string name="hint_DienThoai">input phone number</string>
+    <string name="text_XacNhan">Confirm</string>
+    <string name="txt_ChaoBan">Hello</string>
+    <string name="txt_Email" translatable="false">Email</string>
+    <string name="txt_SDT">Phone number</string>
+</resources>

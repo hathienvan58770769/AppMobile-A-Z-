@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clip xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/mobile"
+    android:clipOrientation="vertical|horizontal"
+    android:gravity="center">
+<!--  gravity:left|top or  bottom|right-->
+
+</clip>
