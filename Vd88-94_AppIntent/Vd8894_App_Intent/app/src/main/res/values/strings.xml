@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Vd88-94_App_Intent</string>
+    <string-array name="list_name">
+        <item>h1</item>
+        <item>h2</item>
+        <item>h3</item>
+        <item>h4</item>
+        <item>h5</item>
+        <item>h6</item>
+        <item>h7</item>
+        <item>h8</item>
+        <item>h9</item>
+        <item>h10</item>
+        <item>h11</item>
+        <item>h12</item>
+        <item>h13</item>
+        <item>h14</item>
+        <item>h15</item>
+        <item>h16</item>
+        <item>h17</item>
+        <item>h18</item>
+        <item>h19</item>
+    </string-array>
+</resources>
