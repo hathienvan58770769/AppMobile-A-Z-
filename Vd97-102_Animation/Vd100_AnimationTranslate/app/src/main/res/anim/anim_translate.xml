@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillAfter="true">
+<!--    di chuyen sang ngang tu trai qua phai -->
+<!--    <translate android:fromXDelta="0"-->
+<!--        android:toXDelta="300"-->
+<!--        android:duration="2000"/>-->
+
+<!--    di chuyen tren xuong duoi-->
+<!--    <translate android:fromYDelta="0"-->
+<!--        android:toYDelta="300"-->
+<!--        android:duration="2000"/>-->
+
+<!--    di chuyen xeo  tu trai qua phai va tu tren xuong-->
+<!--    <translate android:fromXDelta="0"-->
+<!--        android:toXDelta="300"-->
+<!--        android:fromYDelta="0"-->
+<!--        android:toYDelta="300"-->
+<!--        android:duration="2000"/>-->
+
+
+    <translate
+        android:fromXDelta="0"
+        android:toXDelta="500"
+        android:duration="2000"/>
+    <translate
+        android:startOffset="2000"
+        android:fromYDelta="0"
+        android:toYDelta="700"
+        android:duration="2000"/>
+    <translate
+        android:startOffset="4000"
+        android:fromXDelta="0"
+        android:toXDelta="-500"
+        android:duration="2000"/>
+    <translate
+        android:startOffset="6000"
+        android:fromXDelta="0"
+        android:toXDelta="500"
+        android:fromYDelta="0"
+        android:toYDelta="-700"
+        android:duration="2000"/>
+    <translate
+        android:startOffset="8000"
+        android:fromXDelta="0"
+        android:toXDelta="-500"
+        android:duration="2000"/>
+
+<!--        android:startOffset="2000"-->
+
+</set>

@@ -5,6 +5,7 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.view.Menu;
@@ -25,6 +26,8 @@ public class MainActivity extends AppCompatActivity {
     String tenHinhGoc="";
     TextView txtDiem;
     int total =100;
+    SharedPreferences luuDiemSo;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -33,7 +36,13 @@ public class MainActivity extends AppCompatActivity {
         imgNhan =(ImageView) findViewById(R.id.imageView2);
         txtDiem =(TextView) findViewById(R.id.textView2);
 
+        luuDiemSo = getSharedPreferences("DiemSoGame",MODE_PRIVATE);
+
+        //getdiem
+        total = luuDiemSo.getInt("diem",100);
+
         txtDiem.setText(total + "");
+
         String[] arrTenHinh = getResources().getStringArray(R.array.list_name);
         arrayImgName = new ArrayList<>(Arrays.asList(arrTenHinh));
         //Xao tron mang
@@ -65,6 +74,7 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(this,"Chinh Xac  \n Bi cong 10 diem", Toast.LENGTH_SHORT).show();
                 // cong diem
                 total += 10;
+                LuuDiem();
                 // doi hinh goc
                 new CountDownTimer(2000,100) {
                     @Override
@@ -85,6 +95,7 @@ public class MainActivity extends AppCompatActivity {
             }else {
                 Toast.makeText(this,"Sai Roi \n Bi tru 5 diem", Toast.LENGTH_SHORT).show();
                 total-=5;
+                LuuDiem();
             }
             txtDiem.setText(total + "");
         }
@@ -94,6 +105,7 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(this,"Ban chua chon hinh, muon xem lai a ? \n Bi tru 15 diem", Toast.LENGTH_SHORT).show();
                 total -=15;
                 txtDiem.setText(total + "");
+                LuuDiem();
         }
         super.onActivityResult(requestCode, resultCode, data);
     }
@@ -115,5 +127,10 @@ public class MainActivity extends AppCompatActivity {
 
         }
         return super.onOptionsItemSelected(item);
+    }
+    private  void LuuDiem(){
+        SharedPreferences.Editor editor = luuDiemSo.edit();
+        editor.putInt("diem",total);
+        editor.commit();
     }
 }
