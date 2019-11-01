@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name='Vd111_JSON_Object'
