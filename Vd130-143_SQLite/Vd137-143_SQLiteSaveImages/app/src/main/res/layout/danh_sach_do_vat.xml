@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:padding="10dp"
+        android:id="@+id/imageViewHinhCustom"
+        android:layout_width="100dp"
+        android:layout_height="100dp"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Ten Do vat"
+            android:padding="10dp"
+            android:textSize="24sp"
+            android:textColor="#E91E63"
+            android:id="@+id/txtTenDV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="Mo ta do vat"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:textColor="#FF9800"
+            android:id="@+id/txtMoTaDV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</LinearLayout>

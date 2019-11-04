@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name='Vd121-127_AppMusic'
