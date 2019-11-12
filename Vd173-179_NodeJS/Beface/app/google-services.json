@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "766843209650",
+    "firebase_url": "https://beface-b3477.firebaseio.com",
+    "project_id": "beface-b3477",
+    "storage_bucket": "beface-b3477.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:766843209650:android:e754e660f0545ed62386ab",
+        "android_client_info": {
+          "package_name": "hathienvan.firstapplication.beface"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "766843209650-2hsj1j8q6am8de8cug2ia2809q99rljb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "hathienvan.firstapplication.beface",
+            "certificate_hash": "a15caabadd7cb36d08a6068cb055f625589965ad"
+          }
+        },
+        {
+          "client_id": "766843209650-r2iccda5jfdjr2hqob76ur96q44iusvc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwld_q_iJuS_Bht9iv-nsMMl0pOw33lEk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "766843209650-r2iccda5jfdjr2hqob76ur96q44iusvc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

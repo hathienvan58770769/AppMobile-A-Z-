@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name" translatable="false">AppChat</string>
+    <string name="for_got_password" translatable="false">For got password ?</string>
+    <string name="password" translatable="false">Password</string>
+    <string name="username" translatable="false">Username</string>
+    <string name="don_t_have_an_account" translatable="false">Don’t have an account?</string>
+    <string name="create_account" translatable="false">Create account</string>
+    <string name="email">Email</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="todoback">Back</string>
+    <string name="todonone"></string>
+    <string name="fullname">full name</string>
+</resources>

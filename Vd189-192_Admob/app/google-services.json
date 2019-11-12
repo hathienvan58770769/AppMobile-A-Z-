@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "936667606256",
+    "firebase_url": "https://admob-b2031.firebaseio.com",
+    "project_id": "admob-b2031",
+    "storage_bucket": "admob-b2031.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:936667606256:android:694afe4b93ca716f6e6635",
+        "android_client_info": {
+          "package_name": "hathienvan.firstapplication.admob"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "936667606256-uneai503uh3mnt4giibe9rb3e2o4v8i2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "hathienvan.firstapplication.admob",
+            "certificate_hash": "a15caabadd7cb36d08a6068cb055f625589965ad"
+          }
+        },
+        {
+          "client_id": "936667606256-blpujr7k45r1a8r4d8kq1elvmn6ledav.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_OOaqfXIRFooIefJJDOqlIbCZIYe-CbI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "936667606256-blpujr7k45r1a8r4d8kq1elvmn6ledav.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
