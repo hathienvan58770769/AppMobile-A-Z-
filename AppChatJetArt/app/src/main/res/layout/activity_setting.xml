@@ -51,29 +51,36 @@
         android:textColor="@color/txtFullName"
         android:textSize="20sp"
         android:textStyle="bold" />
-    <de.hdodenhof.circleimageview.CircleImageView
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        android:id="@+id/profile_image"
-        android:layout_width="96dp"
-        android:layout_height="96dp"
-        android:src="@drawable/oval_blue"
-        app:civ_border_width="2dp"
-        app:civ_border_color="#FF000000"/>
+<!--    <de.hdodenhof.circleimageview.CircleImageView-->
+<!--        xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--        android:id="@+id/profile_image"-->
+<!--        android:layout_width="96dp"-->
+<!--        android:layout_height="96dp"-->
+<!--        android:src="@drawable/oval_blue"-->
+<!--        app:civ_border_width="2dp"-->
+<!--        app:civ_border_color="#FF000000"/>-->
 
-    <com.google.android.material.tabs.TabLayout
-        android:id="@+id/tabLayout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="-5dp"
-        android:layout_marginEnd="2dp"
-        android:layout_marginBottom="-1dp"
-        android:background="@drawable/rectangle23"/>
-    <androidx.viewpager.widget.ViewPager
-        android:id="@+id/viewPaper"
-        app:layout_behavior="@string/appbar_scrolling_view_behavior"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+<!--    <com.google.android.material.tabs.TabLayout-->
+<!--        android:id="@+id/tabLayout"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginStart="-5dp"-->
+<!--        android:layout_marginEnd="2dp"-->
+<!--        android:layout_marginBottom="-1dp"-->
+<!--        android:background="@drawable/rectangle23"/>-->
+
+<!--    <androidx.viewpager.widget.ViewPager-->
+<!--        android:id="@+id/viewPaper"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_alignBottom="@+id/tabLayout"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_marginEnd="0dp"-->
+<!--        android:layout_marginBottom="1dp"-->
+<!--        app:layout_behavior="@string/appbar_scrolling_view_behavior" />-->
 </RelativeLayout>
